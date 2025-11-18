@@ -1,0 +1,150 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	background-color: grey;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background-color: #217DBB;
+	border-radius: 10px;
+	padding: 30px;
+	max-width: 900px;
+	margin: 40px auto;
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.header {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.img {
+	border-radius: 50%;
+	height: 160px;
+	width: 160px;
+	object-fit: cover;
+	margin-bottom: 15px;
+}
+
+.sat {
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.info {
+	font-size: 22px;
+	color: #e0f7fa;
+	margin-bottom: 15px;
+}
+
+.des {
+	font-size: 16px;
+	color: #f5f5f5;
+	line-height: 1.5;
+	margin-bottom: 25px;
+}
+
+.section {
+	margin-top: 30px;
+}
+
+.subtitle {
+	font-size: 20px;
+	border-bottom: 2px solid white;
+	margin-bottom: 10px;
+	display: inline-block;
+	padding-bottom: 5px;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 12px;
+	background-color: rgba(10, 45, 90, 0.9);
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.table th,
+.table td {
+	border: 1px solid white;
+	padding: 10px;
+	text-align: left;
+}
+
+.table th {
+	background-color: #1565a3;
+	color: #e0f7fa;
+}
+
+.table tr:nth-child(even) {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.cartoon-icon {
+    width: 42px;
+    height: 42px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: #e0e0e0;
+    padding: 4px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    background: rgba(10, 45, 90, 0.12);
+    border-radius: 12px;
+    padding: 24px 18px 20px 18px;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-top: 6px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #F5F5F5;
+    color: #222;
+    resize: vertical;
+    margin-bottom: 3px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: 2px solid #1565a3;
+}
+
+.send-btn {
+    margin-top: 14px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #1565a3;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.send-btn:hover {
+    background-color: #217DBB;
+}
+
