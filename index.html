@@ -1,147 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Portfolio - Satyam Shah</title>
-	<link rel="stylesheet" type="text/css" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyam Shah – Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <div class="container">
-             <div class="header">
-             <img class="img" src="jaipur.jpg" alt="Profile Picture">
-             <h2 class="sat">Satyam Shah</h2>
-
-             <p class="des">
-             I am a student of BSc (Hons) in Computer Science at Biratnagar International College.I am passionate about Full Stack Development and have built several projects that have strengthened my technical skills and programming knowledge. I enjoy solving real-world problems through code and constantly learning new technologies.
-             </p>
+    <nav class="nav-bar">
+        <div class="nav-logo">Satyam Shah</div>
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle color theme">🌗</button>
+    </nav>
+    <main class="container">
+        <section class="hero glassmorph">
+            <img class="img" src="jaipur.jpg" alt="Profile Picture">
+            <div>
+                <h1 class="sat">Satyam Shah</h1>
+                <h3 class="hero-role">Full Stack Developer</h3>
+                <div class="hero-divider"></div>
+                <p class="tagline">Passionate about building modern web solutions and scalable apps. Open to opportunities!</p>
             </div>
-
-            <div class="section">
-            <h3 class="subtitle">Qualifications</h3>
-            <table class="table">
-                <tr>
-                    <th>Level</th>
-                    <th>Institution</th>
-                    <th>Year (BS)</th>
-                    <th>Grade/GPA</th>
-                </tr>
-                 <tr>
-                    <td>School (Class 10)</td>
-                    <td>St. Joseph School</td>
-                    <td>2078</td>
-                    <td>3.55 GPA (A Rank)</td>
-                </tr>
-                <tr>
-                    <td>+2 (Class 12)</td>
-                    <td>Merryland</td>
-                    <td>2080</td>
-                    <td>3.50 GPA (A Rank)</td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="section">
-            <h3 class="subtitle">Projects</h3>
-            <table class="table">
-                <tr>
-                    <th>Semester</th>
-                    <th>Project Title</th>
-                    <th>Technologies Used</th>
-                    <th>Description</th>
-                </tr>
-                <tr>
-                    <td>1st Semester</td>
-                    <td>Weather Web Application</td>
-                    <td>HTML, CSS, JavaScript, API Integration</td>
-                    <td>Developed a weather app displaying real-time weather data for cities.</td>
-                </tr>
-                <tr>
-                    <td>1st Semester</td>
-                    <td>Movie Website</td>
-                    <td>HTML, CSS, JavaScript, PHP, MySQL</td>
-                    <td>Created a dynamic website displaying movie info and ratings using a database.</td>
-                </tr>
-                <tr>
-                    <td>2nd Semester</td>
-                    <td>Banking System</td>
-                    <td>Java</td>
-                    <td>Developed a simple banking system managing user accounts and transactions.</td>
-                </tr>
-                <tr>
-                    <td>2nd Semester</td>
-                    <td>Mini Projects</td>
-                    <td>Various</td>
-                    <td>Worked on small projects to improve algorithmic and coding efficiency.</td>
-                </tr>
-            </table>
-        </div>
-        <div class="section">
-    <h3 class="subtitle">Interests</h3>
-    <table class="table">
-        <tr>
-            <th>Icon</th>
-            <th>Interest</th>
-        </tr>
-        <tr>
-            <td><img src="cloud-computing.png" alt="Cloud" class="cartoon-icon"></td>
-            <td>Cloud Computing</td>
-        </tr>
-        <tr>
-            <td><img src="istockphoto-177427917-612x612.jpg" alt="Cricket" class="cartoon-icon"></td>
-            <td>Cricket</td>
-        </tr>
-        <tr>
-            <td><img src="Learn-Chess-Online-Gear-1053741472.webp" alt="Chess" class="cartoon-icon"></td>
-            <td>Chess</td>
-        </tr>
-        <tr>
-            <td><img src="1520091885004.jpg" alt="Travelling" class="cartoon-icon"></td>
-            <td>Travelling</td>
-        </tr>
-        <tr>
-            <td><img src="Thumbnail-scaled.webp" alt="Boxing" class="cartoon-icon"></td>
-            <td>Boxing</td>
-        </tr>
-    </table>
-</div>
-<div class="section">
-    <h3 class="subtitle">Skills</h3>
-    <table class="table">
-        <tr>
-            <th>Icon</th>
-            <th>Skill</th>
-        </tr>
-        <tr>
-            <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="cartoon-icon"></td>
-            <td>Python programming</td>
-        </tr>
-        <tr>
-            <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="cartoon-icon"></td>
-            <td>JavaScript</td>
-        </tr>
-        <tr>
-            <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="cartoon-icon"></td>
-            <td>Java</td>
-        </tr>
-    </table>
-</div>
-<div class="section">
-    <h3 class="subtitle">Contact Me</h3>
-    <form class="contact-form" action="#" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-
-        <button type="submit" class="send-btn">Send</button>
-    </form>
-</div>
-
- </div>
+        </section>
+        <section class="section card">
+            <h2 class="subtitle"><i class="fa-solid fa-code"></i> Technical Skills</h2>
+            <div class="skills-blocks">
+                <div class="skill">
+                    <span class="skill-name">Python programming</span>
+                    <div class="progress-bar-bg"><div class="progress-bar" data-skill="90"></div></div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">JavaScript</span>
+                    <div class="progress-bar-bg"><div class="progress-bar" data-skill="86"></div></div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">Java</span>
+                    <div class="progress-bar-bg"><div class="progress-bar" data-skill="81"></div></div>
+                </div>
+            </div>
+        </section>
+        <section class="section card">
+            <h2 class="subtitle"><i class="fa-solid fa-folder-open"></i> Featured Projects</h2>
+            <div class="projects-list">
+                <div class="project-card" data-url="https://stym637.github.io/Weather-App/">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1116/1116453.png" alt="Weather App Icon" class="cartoon-icon">
+                    <div>
+                        <div class="project-title">Weather Web Application</div>
+                        <div class="project-desc">Live weather dashboard, smart search, real-time API integration, and polished responsive UI.</div>
+                        <a href="https://stym637.github.io/Weather-App/" target="_blank" class="view-demo-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-url="https://stym637.github.io/Movie-Application/">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5978/5978066.png" alt="Movie App Icon" class="cartoon-icon">
+                    <div>
+                        <div class="project-title">Movie Website</div>
+                        <div class="project-desc">Discover trending movies and search details, with an interactive modern design for movie lovers.</div>
+                        <a href="https://stym637.github.io/Movie-Application/" target="_blank" class="view-demo-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section card">
+            <h2 class="subtitle"><i class="fa-solid fa-envelope"></i> Contact</h2>
+            <form class="contact-form" id="contactForm" autocomplete="off">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <div id="form-message"></div>
+                <button type="submit" class="send-btn"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+            </form>
+        </section>
+        <section class="section card">
+            <h2 class="subtitle"><i class="fa-solid fa-photo-film"></i> Media Gallery</h2>
+            <div class="media-gallery">
+                <video id="portfolio-video" width="320" height="180" controls>
+                    <source src="https://rr2---sn-fapo3ox25a-cpgs.googlevideo.com/videoplayback?expire=1764194612&ei=1CQnaYu1NbKIlu8P9Omk2Ac&ip=199.180.9.199&id=o-AFR9XzvHbkxTWTG820vOpjIOBFblss_UreiIjfhJ8ZpU&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&rms=au%2Cau&bui=AdEuB5Saxb4IgGC_zMEV_NbBzrxZQSwvSJn0Vr0Y9OcxNVQMf8JmTqyTdsvpSmJ-2E9ubB-HmCKphIsJ&spc=6b0G_NcHA8D3LuMp4xDNxxvYkfYwQisPohOZl04QW5RQwThcRVaAwqgLEC8TxjFhMH0&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&cnr=14&ratebypass=yes&dur=9.845&lmt=1728403894645355&fexp=51552689,51565115,51565681,51580968&c=ANDROID&txp=5430434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRgIhAK00MXKyF_bnUg4_xDSvOMsKlsgN5cwSUze3lsXTduiuAiEAn21xn8qB4yQ5QErDpETujrstSgKjcy-Nu9FkxH1Kdps%3D&redirect_counter=1&rm=sn-q4fez77s&rrc=104&req_id=21abfebb6bd1a3ee&cms_redirect=yes&cps=0&ipbypass=yes&met=1764173017,&mh=Uc&mip=2400:1a00:1b6e:f56f:cd7b:3573:a746:478c&mm=31&mn=sn-fapo3ox25a-cpgs&ms=au&mt=1764172623&mv=m&mvi=2&pl=46&lsparams=cps,ipbypass,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAIsfZ2W32JlKSZBUh-6WAyuJfFi3lYhCDTOy-g78Pv_XAiEAyy7mwoBCRCURRrVGRWCp5UPbYbHeueT1wMR3zo_tV8o%3D" type="video/mp4">
+                </video>
+                <audio id="portfolio-audio" controls>
+                    <source src="www.cabinet-avocat-cadet.fr - Apk Perfect piano shorts yash kgf (320 KBps).mp3" type="audio/mp3">
+                </audio>
+                <canvas id="portfolio-canvas" width="320" height="90"></canvas>
+            </div>
+        </section>
+        <section class="section card">
+            <h2 class="subtitle"><i class="fa-solid fa-image"></i> Work Gallery</h2>
+            <div class="slider-container">
+                <button class="slider-btn" id="prev-slide" aria-label="Previous">&larr;</button>
+                <img id="slider-img" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?fit=crop&w=600&q=80" alt="Project Image">
+                <button class="slider-btn" id="next-slide" aria-label="Next">&rarr;</button>
+            </div>
+        </section>
+    </main>
+    <button id="back-to-top" class="back-top-btn" aria-label="Back to Top">&#8679;</button>
+    <footer class="footer">
+        &copy; 2025 Satyam Shah &mdash; <span class="footer-note">Professional Portfolio</span>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
